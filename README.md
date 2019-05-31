@@ -1,2 +1,2 @@
-# AlphaTest
-Test procedures and reports
+# SEA-S7_v1.0硬件测试
+本仓库用于存放板卡测试步骤、报告以及硬件修改建议等
