@@ -1,16 +1,16 @@
-# update from XUP
+# updated by XUP
 | item | 描述 | 方案 |   备注   |
 | ---- | ---- | ---- | ---- |
 |   1  |  FPGA的扩展接口，放到Arduino的外侧。    |      |      |
 |   2  | JTAG口的接插件默认焊接上 |      |      |
 |   3  | FPGA侧增加2个按键，作为游戏操作按键。 |      |      |
 |   4  | HDMI封装反，需要更正 |      |      |
-|   5  | MIPI接口需要调整，增加2个电阻，多占用2个FPGA GPIO，详细见[MIPI硬件更改文档](./issues_doc/mipi.md) |      |      |
+|   5  | MIPI接口需要调整，增加2个电阻，多占用2个FPGA GPIO | 详细见[MIPI_HDMI硬件更改文档](./issues_doc/mipi_hdmi.md) |      |
 |   6  | MIPI FFC软排线座子焊反，需要采用同面线，是否考虑采用7+8pin封装避免焊反。 |      |      |
 |   7  | VCC_3V3_AR电压测试有问题 |      |      |
 |   8  | ADC和DAC的接插件型号特殊，不易找到相应的接插件插上去 |      |      |
 |   9  | MIPI接口太靠近另外一个接插件，不好插拔。 |      |      |
-|  10  | 缺少一个固定孔 |      |      |
+|  10  | 缺少固定孔 |      |      |
 | 11 | 为了兼容独立使用与作为arduino子卡两种模式，建议通过跳线配置5V/3.3V电源 |      |      |
 |      |      |      |      |
 |      |      |      |      |
@@ -24,7 +24,7 @@
 
 
 
-# update from 西南交大
+# updated by 西南交大
 | item | 描述 | 方案 |   备注   |
 | ---- | ---- | ---- | ---- |
 |   1  |  SD卡读取失败  |      |      |
@@ -33,7 +33,7 @@
 
 
 
-# update from Seeed studio
+# updated by Seeed studio
 | item | 描述 | 方案 |   备注   |
 | ---- | ---- | ---- | ---- |
 | 1    |      |      |      |

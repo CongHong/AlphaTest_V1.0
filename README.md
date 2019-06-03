@@ -4,6 +4,8 @@
 ------
 
 硬件相关测试步骤如下：
-1. mipi_hdmi目录存放HDMI与MIPI测试步骤
-2. misc_fpga_test目录存放其它FPGA相关测试步骤
-3. 其它硬件测试内容请各负责人自行建立目录上传
+1. Hardware_Test_summary.md为硬件测试汇总文件
+2. mipi_hdmi目录存放HDMI与MIPI测试步骤及可执行代码
+3. misc_fpga_test目录存放其它FPGA相关测试步骤及可执行代码
+4. issues_doc存放详细的硬件修改建议
+5. 其它的硬件测试内容请各负责人自行建立目录上传
